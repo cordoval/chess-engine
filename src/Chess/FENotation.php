@@ -9,5 +9,23 @@ class FENotation implements NotationInterface
         return true;
     }
 
-    
+    public function normalize()
+    {
+        $callback = function($input) {
+            // here goes algorithm
+
+            return true;
+        };
+
+        return $callback;
+    }
+
+    public function denormalize()
+    {
+        $callback = function($input) {
+            return true;
+        };
+
+        return $callback;
+    }
 }
