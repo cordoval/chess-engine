@@ -1,0 +1,34 @@
+{
+    "name":         "cordoval/chess",
+    "description":  "chess enginge",
+    "keywords":     ["chess"],
+    "homepage":     "http://chess.com/",
+    "type":         "library",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":      "Luis Cordova",
+            "email":     "cordoval@gmail.com",
+            "homepage":  "http://craftitonline.com"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.3",
+        "phpspec/phpspec":          "dev-master"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Chess": "src/"
+        }
+    },
+
+    "bin": ["bin/phpspec"],
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
