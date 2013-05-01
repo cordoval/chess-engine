@@ -19,6 +19,6 @@ class FENotationSpec extends ObjectBehavior
 
     function it_shohuld_normalize_notation()
     {
-        $this->normalize()->shouldReturn(true);
+        $this->normalize()->shouldReturn();
     }
 }

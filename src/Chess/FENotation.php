@@ -23,6 +23,8 @@ class FENotation implements NotationInterface
     public function denormalize()
     {
         $callback = function($input) {
+            // here goes algorithm
+
             return true;
         };
 
