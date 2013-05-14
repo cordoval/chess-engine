@@ -17,7 +17,10 @@ class FENotationSpec extends ObjectBehavior
         $this->hasEnPassant()->shouldReturn(true);
     }
 
-    function it_shohuld_normalize_notation()
+    /**
+     *
+     */
+    function it_should_normalize_notation()
     {
         $this->normalize()->shouldReturn();
     }
